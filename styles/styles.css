@@ -1,0 +1,12 @@
+#degradado {
+    height: 150px;
+    background-image: linear-gradient(rgb(153, 249, 51), rgb(5, 106, 21),rgb(3, 23, 5) );
+ 
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
